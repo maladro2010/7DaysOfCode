@@ -1,0 +1,42 @@
+@media screen and (max-width: 480px) {
+    
+    .cabecalho {
+        flex-direction: column;
+        gap: 5px;
+        height: auto;
+    }
+
+    .cabecalho__logo {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #nav--toggle {
+        display: block;
+    }
+
+    .cabecalho__nav {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100vh;
+        background-color: var(--color04);
+        gap: 10px;
+        padding: 10px 0;
+    }
+
+    .cabecalho__nav--item {
+        padding: 5px 140px;
+        margin-left: -150px;
+        background-color: var(--color03);
+        color: var(--color00);
+        border: 2px solid #FFF;
+    }
+
+    .hide {
+        display: none;
+    }
+
+}
